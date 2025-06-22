@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>827</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelDaftar_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>971</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Profil Pengembang:
+Nama: Muhammad Fajar Maulana
+NIM: F1D022072
+Tentang Aplikasi:</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>831</width>
+      <height>387</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_kriteria">
+     <attribute name="title">
+      <string>Kriteria</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_1">
+      <item>
+       <widget class="QTableWidget" name="tableKriteria">
+        <column>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Kriteria</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Bobot</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Target</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="tab_skala">
+     <attribute name="title">
+      <string>Skala IPK</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QTableWidget" name="tableSkalaIPK">
+        <column>
+         <property name="text">
+          <string>Rentang IPK</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Nilai</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="tab_gap">
+     <attribute name="title">
+      <string>Nilai GAP</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QTableWidget" name="tableGap">
+        <column>
+         <property name="text">
+          <string>GAP</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Nilai</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Keterangan</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>827</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
