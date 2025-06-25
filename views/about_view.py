@@ -9,7 +9,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-class AboutView(QtWidgets):
+class AboutView(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
@@ -29,7 +29,6 @@ class AboutView(QtWidgets):
         self.tabWidget.setGeometry(QtCore.QRect(0, 80, 831, 387))
         self.tabWidget.setObjectName("tabWidget")
 
-        # Tab Kriteria
         self.tab_kriteria = QtWidgets.QWidget()
         self.tab_kriteria.setObjectName("tab_kriteria")
         self.verticalLayout_1 = QtWidgets.QVBoxLayout(self.tab_kriteria)
@@ -129,3 +128,4 @@ class AboutView(QtWidgets):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_kriteria), _translate("MainWindow", "Kriteria"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_skala), _translate("MainWindow", "Skala IPK"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_gap), _translate("MainWindow", "Nilai GAP"))
+
